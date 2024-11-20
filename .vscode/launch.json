@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MyImplement",
+            "request": "launch",
+            "mainClass": "StackAndQuesues.MyImplement",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "MyStackImplement",
+            "request": "launch",
+            "mainClass": "StackAndQuesues.MyStackImplement",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "InBuild",
+            "request": "launch",
+            "mainClass": "StackAndQuesues.InBuild",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "CyclicSort",
+            "request": "launch",
+            "mainClass": "CyclicSort",
+            "projectName": "java-practice_583ca6ad"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "java-practice_583ca6ad"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "java-practice_583ca6ad"
+        },
+        {
+            "type": "java",
+            "name": "Ceiling",
+            "request": "launch",
+            "mainClass": "Ceiling",
+            "projectName": "java-practice_583ca6ad"
+        },
+        {
+            "type": "java",
+            "name": "Condition",
+            "request": "launch",
+            "mainClass": "Condition",
+            "projectName": "java-practice_583ca6ad"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java-practice_583ca6ad"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "java-practice_583ca6ad"
+        },
+        {
+            "type": "java",
+            "name": "primative",
+            "request": "launch",
+            "mainClass": "primative",
+            "projectName": "java-practice_583ca6ad"
+        }
+    ]
+}
