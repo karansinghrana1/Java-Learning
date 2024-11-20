@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TicTacToe",
+            "request": "launch",
+            "mainClass": "TicTacToe.TicTacToe",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
             "name": "MyImplement",
             "request": "launch",
             "mainClass": "StackAndQuesues.MyImplement",
