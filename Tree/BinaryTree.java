@@ -71,12 +71,46 @@ public class BinaryTree {
             for (int i = 0; i < level-1; i++) {
                 System.out.print("|\t\t");
             }
-            System.out.println("|-------->"+node.val);
+            System.out.println("|------->"+node.val);
         }else{
             System.out.println(node.val);
         }
         prettyDisplay(node.left,level+1);
         
+    }
+
+    public void preOrder(){
+        preOrder(root);
+    }
+    private void preOrder(Node node){
+        if(node==null){
+            return ;
+        }
+        System.out.print(node.val+" ");
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+    public void inOrder(){
+        inOrder(root);
+    }
+    private void inOrder(Node node){
+        if(node==null){
+            return ;
+        }
+        inOrder(node.left);
+        System.out.print(node.val+" ");
+        inOrder(node.right);
+    }
+    public void postOrder(){
+        postOrder(root);
+    }
+    private void postOrder(Node node){
+        if(node==null){
+            return ;
+        }
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.print(node.val+" ");
     }
 
 
