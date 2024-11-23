@@ -1,7 +1,7 @@
 public class BinarySearchTree {
     public class Node{
-        private int val,height;
-        private Node left,right;
+         int val,height;
+         Node left,right;
 
         public Node(int val){
             this.val=val;
@@ -12,7 +12,7 @@ public class BinarySearchTree {
         }
     }
 
-    private Node root;
+     Node root;
 
     public BinarySearchTree(){
 

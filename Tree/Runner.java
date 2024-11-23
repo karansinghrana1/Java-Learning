@@ -7,10 +7,16 @@ public class Runner {
         // tree.populate(scanner);
         // tree.prettyDisplay();
 
-        BinarySearchTree bst = new BinarySearchTree();
-        int[] nums = {5,2,7,1,4,6,9,8,3,10};
-        bst.populate(nums);
-        bst.display();
+        // BinarySearchTree bst = new BinarySearchTree();
+        // int[] nums = {5,2,7,1,4,6,9,8,3,10};
+        // bst.populate(nums);
+        // bst.display();
+        
+        AVL tree = new AVL();
+        
+        for (int i = 0; i < 1000; i++) {
+            tree.insert(i);
+        }
 
         
     }
