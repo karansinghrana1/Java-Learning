@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stringbuffer",
+            "request": "launch",
+            "mainClass": "Stringbuffer",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
             "name": "Runner",
             "request": "launch",
             "mainClass": "Runner",
