@@ -1,0 +1,88 @@
+//Question 1 solution - used java - file name should be Main.java to run this code
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        System.out.println(countWords(input));
+    }
+
+    public static int countWords(String input) {
+        int count = 0;
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            if (i == 0 || (c >= 'A' && c <= 'Z')) {
+                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || 
+                    c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+                    count += 2;
+                } else {
+                    count += 1;
+                }
+            }
+        }
+        return count;
+    }
+}
+
+
+
+//Question 2 solution - used java - file name should be Main.java to run this code
+
+
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<Integer> list1 = new LinkedList<>();
+        LinkedList<Integer> list2 = new LinkedList<>();
+
+        // we can use loops also here to take custom inputs, i did this question by taking an example
+        list1.add(1);
+        list1.add(2);
+        list1.add(4);
+
+        list2.add(1);
+        list2.add(3);
+        list2.add(4);
+
+        LinkedList<Integer> mergedList = mergeTwoLists(list1, list2);
+
+        System.out.println(mergedList);
+    }
+
+    public static LinkedList<Integer> mergeTwoLists(LinkedList<Integer> list1, LinkedList<Integer> list2) {
+        LinkedList<Integer> mergedList = new LinkedList<>();
+        int i = 0, j = 0;
+
+        while (i < list1.size() && j < list2.size()) {
+            if (list1.get(i) <= list2.get(j)) {
+                mergedList.add(list1.get(i));
+                i++;
+            } else {
+                mergedList.add(list2.get(j));
+                j++;
+            }
+        }
+
+        while (i < list1.size()) {
+            mergedList.add(list1.get(i));
+            i++;
+        }
+
+        while (j < list2.size()) {
+            mergedList.add(list2.get(j));
+            j++;
+        }
+
+        return mergedList;
+    }
+}
+
+
+
+
+

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortedLinkedLists",
+            "request": "launch",
+            "mainClass": "MotiveMindTest.MergeSortedLinkedLists",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "WordCount",
+            "request": "launch",
+            "mainClass": "MotiveMindTest.WordCount",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
             "name": "Stringbuffer",
             "request": "launch",
             "mainClass": "Stringbuffer",
