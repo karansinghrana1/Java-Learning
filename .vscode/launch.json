@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileHandling",
+            "request": "launch",
+            "mainClass": "FileHandling.FileHandling",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
